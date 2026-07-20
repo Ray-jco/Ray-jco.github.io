@@ -7,17 +7,18 @@
 
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
+title: Jullian Raymund Co's Portfolio # This is what shows up in the tab of the browser
 
 
 
 # Hero Section
-name: John Doe
-headline: headline message
+name: Jullian Raymund Co
+headline: Welcome to my portfolio
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hello, I'm Jullian.
+  I am a first-year Mechanical and Design Engineering student at City, University of London with a strong interest in mechanical design, CAD modelling, and product development.
+  I enjoy applying engineering principles to create practical solutions, from concept development and modelling to manufacturing and testing.
+  This portfolio showcases my academic and personal projects. 
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
@@ -25,15 +26,15 @@ profile_image: ./assets/images/profile-image/avatar.jpeg
 
 # Link your resume
 # You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing # or /assets/resume/resume.pdf
+resume-url: https://docs.google.com/document/d/1gY_h9yX3XlO8TDj7IYs__p9BpUdmOxvt9mfgs6yJv78/edit?usp=sharing # or /assets/resume/resume.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: test    # https://www.linkedin.com/in/{your url slug} 
-  github: leea12    # https://github.com/{your url slug} 
-  stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
+  linkedin: jullian-raymund-co-096782245   # https://www.linkedin.com/in/{your url slug} 
+  github: Ray-jco   # https://github.com/{your url slug} 
+  stackoverflow:      # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
   x-twitter:   # https://x.com/{your url slug} 
   threads:            # https://threads.net/@{your url slug} 
@@ -47,48 +48,35 @@ external-links:    # input only your own url slug. The icons with missing entrie
 skills:
   - category: 3D Modeling
     tools:
-    - Onshape
+    - Siemens Nx
     - Solidworks
-    - Creo
     - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
+    - Blender
+  - category: Programming
+    tools:
+    - Python
+    - C++
+    - SQL
+    - HTML
   - category: Prototyping
     tools:
-    - SLA
     - CNC
     - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
+    - Wood / XPS models
     - Arduino / Raspberry Pi
     - Breadboarding for circuit testing
-  - category: Design Standards / Practices
+  - category: Standards / Practices
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
+    - GMP
+    - ISO fits and tolerances  
   - category: PCB Design
     tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
+    - Proteus
     - KiCad
-  - category: Problem Solving / Risk Management
-    tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
 
 
-# Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/{8-digit key}
+
+
 
 
 
